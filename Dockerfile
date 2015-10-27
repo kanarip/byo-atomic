@@ -1,4 +1,4 @@
-FROM fedora:21
+FROM docker.io/library/fedora:22
 MAINTAINER "Jason Brooks" <jbrooks@redhat.com>
 
 
