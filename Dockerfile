@@ -2,9 +2,9 @@ FROM docker.io/library/fedora:22
 MAINTAINER "Jason Brooks" <jbrooks@redhat.com>
 
 
-RUN yum update -y; \
-yum install -y rpm-ostree httpd git nscd; \
-yum clean all
+RUN dnf update -y; \
+dnf install -y rpm-ostree httpd git nscd; \
+dnf clean all
 
 RUN mkdir -p /home/working; \
 
